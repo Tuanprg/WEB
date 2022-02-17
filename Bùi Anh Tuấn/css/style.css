@@ -1,0 +1,172 @@
+body{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+#logo{
+    font-family: 'calibri light';
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 70px;
+    padding-top: 175px;
+}
+    /*SECTION*/
+.col img{
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.col{
+    width: 30%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: #58bf9d;
+    text-decoration: none;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    background-color: #FCE4A7;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#img-01{
+    height: 500px;
+    width: 0 auto;
+    margin-left: -35px;
+}
+#text-01{
+    font-size: 30px;
+    padding-top: 10%;
+    color: #88816f;
+}
+/*đường kẻ dưới phần Most Creative People Working For You*/
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    border: 1px solid #868686;
+    margin-left: 0%;
+    margin-bottom: 7%;
+}
+.col-2{
+    text-align: left;
+    margin: 0 auto;
+}
+/*dòng thứ 3*/
+#row-3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+/*cột của dòng thứ 3*/
+.col-3{
+    text-align: center; 
+    width: 70%;
+    padding-top: 7%;
+}
+/*icon download, tài liệu, chuông*/
+.fa-cloud-download-alt, .fa-file, .fa-bell{
+    font-size: 40px;
+    color: white;
+}
+/*dòng phần bảng giá*/
+#row-price{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+/*cột bảng giá*/
+.col-price{
+    margin-left: 5%;
+    width:30%;
+    border: inset;
+    border-color:black;
+    color: rgb(110, 110, 110);
+}
+/*nút buy it*/
+.button{
+    height: 50px;
+    width: 150px;
+    border: solid 3px black;
+    border-radius: 5px;
+    background: #FCE4A7;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20%;
+}
+/*background phần SUBSCRIBE*/
+#bg-sub{
+    background-image: url(/img/iMac.jpg);
+    width: auto;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*phần text ở phần SUBSCRIBE*/
+#text-bg-sub{
+    padding-top: 25%;
+    color: white;
+    font-size: 60px;
+}
+/*form nhập mail để download*/
+#email{
+    width: 480px;
+    height: 30px;
+}
+
+/*nút download ở form nhập mail*/
+#down{
+    height: 35px;
+    width: 100px;
+    background-color: #FCE4A7;
+    border: none;
+}
+/*phần footer*/
+footer {
+    margin: 0 auto;
+}
+
+/*phần messenge*/
+textarea {
+    font-family: sans-serif !important;
+}
+
+/*nút gửi thông tin liên lạc*/
+#send {
+    width: 200px;
+    height: 40px;
+    background: #FCE4A7;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+input[type="text"]{
+    width: auto;
+}
